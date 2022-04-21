@@ -4,6 +4,6 @@ Arguments  = $(ClusterId) $(ProcId)
 Log        = log/job.$(ClusterId).$(ProcId).log
 Output     = output/job.$(ClusterId).$(ProcId).out
 Error      = error/job.$(ClusterId).$(ProcId).error
-Queue 30
+Queue 50
 
 
